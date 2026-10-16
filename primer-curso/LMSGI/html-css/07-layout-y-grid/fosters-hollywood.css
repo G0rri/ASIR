@@ -1,0 +1,54 @@
+
+            body {
+                background-color: black;
+            }
+            .cabecera {
+                background-color: rgb(21, 101, 206);
+                padding: 15px;
+                text-align: center;
+            }
+            .barra {
+                overflow: hidden;
+                background-color: rgb(21, 101, 206);
+                grid-template-columns: auto auto;
+                display: grid;
+            }
+            .barra a {
+                float: left;
+                color: #ffffff;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            .barra a:hover {
+                background-color: white;
+                color: black;
+            }
+            table {
+                border-collapse: collapse;
+                width: 100%;
+            }
+            th, td {
+                text-align: left;
+                padding: 8px;
+                border: 1px solid black;
+            }
+            .columna.centro {
+                width: 75%;
+                border: solid;
+                background-color: rgb(238, 231, 231);
+            }
+            footer {
+                background-color: #a52424;
+                padding: 50px;
+                color: rgb(0, 0, 0);
+                height: 170px;
+            }
+            footer table {
+                width: 700px;
+            }
+            footer td,th {
+                border: none;
+                color: white;
+            }
+            

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDs_EN_OFERTA>
+    <Título nombre="Still got the blues"/>
+    <Artista nombre="Gary Moore"/>
+    <País nombre="UK"/>
+    <Compañía_discográfica nombre="Virgin Records"/>
+    <Precio nombre="10.20"/>
+    <Año_de_publicación año="1990"/>
+    <Título nombre="One night only"/>
+    <Artista nombre="Bee Gees"/>
+    <País nombre="UK"/>
+    <Compañía_discográfica nombre="Polydor"/>
+    <Precio nombre="10.90"/>
+    <Año_de_publicación año="1998"/>
+    <Título nombre="When a man loves a women"/>
+    <Artista nombre="Percy Sledge"/>
+    <País nombre="USA"/>
+    <Compañía_discográfica nombre="Atlantic"/>
+    <Precio nombre="8.70"/>
+    <Año_de_publicación año="1987"/>
+    <Título nombre="Big Willie style"/>
+    <Artista nombre="Will Smith"/>
+    <País nombre="USA"/>
+    <Compañía_discográfica nombre="Columbia"/>
+    <Precio nombre="9.90"/>
+    <Año_de_publicación año="1997"/>
+    <Título nombre="La canción de Juan Perro"/>
+    <Artista nombre="Radio Futura"/>
+    <País nombre="España"/>
+    <Compañía_discográfica nombre="Sony Music-Ariola"/>
+    <Precio nombre="9.90"/>
+    <Año_de_publicación año="1987"/>
+    <Título nombre="The dock of the bay"/>
+    <Artista nombre="Otis Redding"/>
+    <País nombre="USA"/>
+    <Compañía_discográfica nombre="Atlantic"/>
+    <Precio nombre="7.90"/>
+    <Año_de_publicación año="1987"/>
+</CDs_EN_OFERTA>

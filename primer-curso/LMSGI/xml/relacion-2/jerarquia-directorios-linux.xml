@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<raiz dato="Es el nivel más alto dentro de la jerarquía de directorios. De aquí cuelgan el resto 
+            de carpetas, particiones y otros dispositivos. Es por esto que donde se instala el sistema, 
+            se selecciona la partición deseada y se le indica que el punto de montaje es justamente /.">
+    <bin dato="Los binarios son los ejecutables de Linux. Aquí tendremos los ejecutables de los 
+               programas propios del sistema operativo, entre ellos comandos como cp, mv, cat, chown, 
+               etc. No es el único directorio que contiene ejecutables como veremos más adelante. 
+               Importante, cualquier usuario puede ejecutarlos y los preinstala el sistema.">
+    </bin>
+    <boot dato="Aquí nos encontramos los archivos necesarios para el inicio del sistema, desde los 
+                archivos de configuración de Grub Lilo, hasta el propio kernel del sistema.">
+    </boot>
+    <dev dato="Linux trata los dispositivos como si fueran un fichero más para facilitar el flujo de la 
+                información. En esta carpeta tenéis los dispositivos del sistema, por ejemplo los usb, sda (o 
+                hda) con sus respectivos números que indican las particiones, etc.">
+    </dev>
+    <etc dato="Aquí se guardan los ficheros de configuración de los programas instalados, así como 
+                ciertos scripts que se ejecutan en el inicio del sistema. Los valores de estos ficheros de 
+                configuración pueden ser complementados o sustituidos por los ficheros de configuración 
+                de usuario que cada uno tiene en su respectivo “home” (carpeta personal).">
+    </etc>
+    <home dato="Es la carpeta donde se guardan los archivos personales de todos los usuarios, 
+                documentos, configuración específica de ciertos programas, etc. * 
+                Dentro de /home están los directorios personales de todos los usuarios, nombrados según 
+                el nombre de usuario utilizado. Supongamos por ejemplo que hay dos usuarios 
+                denominados user1 y user 2. Cada directorio de usuario contiene asimismo diferentes 
+                carpetas para ayudarlo a clasificar la información. 
+                Estas generalmente son: /Documentos, /Imágenes, /Música, /Plantillas y /Vídeos /, así 
+                como otros archivos y carpetas ocultas, que son las encargados de guardar la información 
+                de configuraciones de las aplicaciones del usuario.">
+        <user1>
+            <Documentos/>
+        </user1>
+        <user>
+            <Música/>
+        </user>
+    </home>
+    <lib dato="Incluye las bibliotecas necesarias que poder ejecutar todos los binarios.">
+    </lib>
+    <media dato="Directorio de montaje de volúmenes extraíbles.">
+    </media>
+    <opt dato="Destinado para guardar paquetes adicionales de aplicaciones.">
+    </opt>
+    <proc dato="Ficheros de información de procesos que se están ejecutando en un momento 
+                determinado. Realmente no se guarda nada pues almacena archivos virtuales, por lo tanto 
+                su directorio es nulo.">
+    </proc>
+    <root dato="Directorio del superusuario. A diferencia de los otros usuarios que se encuentran 
+                dentro de /home, el usuario root esta en su propia carpeta colgando directamente del raíz.">
+    </root>
+    <sbin dato="Igual que el /bin pero almacena los binarios necesarios para tareas administrativas 
+                que son gestionados por el superusuairo o rot.">
+    </sbin>
+    <srv dato="Almacena archivos y directorios relativos a servidores.">
+    </srv>
+    <sys dato="Al igual que /proc contiene archivos virtuales que tienen información del sistema 
+               operativo.">
+    </sys>
+    <tmp dato="Es un directorio donde se almacenan ficheros temporales. Cada vez que se inicia el 
+               sistema este directorio se limpia.">
+    </tmp>
+    <usr dato="User System REsources. Almacena todos los archivos de solo lectura relativos a 
+               utilidades del usuario, incluido el software instalado mediante gestores de paquetes de 
+               cada distribución.">
+        <bin dato="Conjunto de ejecutables de la mayoría de aplicaciones de escritorio entre 
+                   otras (por ejemplo firefox)."/>
+        <include dato="Los ficheros cabeceras para C y C++."/>
+        <lib dato="Las bibliotecas para C y C++."/>
+        <local dato=" Es otro nivel dentro que ofrece una jerarquía parecida al propio directorio 
+                      /usr."/>
+        <sbin dato="Otra serie de comandos administrativos para el sistema."/>
+        <share dato="Archivos compartidos como ficheros de configuración, imágenes, iconos, 
+                     etc."/>
+        <src dato="Tiene en su interior el código fuente para el kernel LInux."/>
+    </usr>
+    <var dato="contiene varios archivos con información del sistema, como archivos de logs, emails 
+               de los usuarios del sistema, bases de datos, información almacenada en la caché, 
+               información relativa a los paquetes de aplicaciones almacenados en /opt, etc. En cierto 
+               modo se podría decir que actúa a modo de registro del sistema.">
+    </var>
+</raiz>

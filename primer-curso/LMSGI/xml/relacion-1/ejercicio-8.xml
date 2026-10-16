@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<imagen>
+    <nombre nombre="Restaurante Seindor"/>
+    <identificador nombre="B12345678"/>
+    <dirección nombre="Avenida Principal, 1 28080 Madrid"/>
+    <teléfono nombre="91234567"/>
+    <email nombre="info@seindor.example"/>
+    <web nombre="seindor.example"/>
+    <ticket nombre="A103837"/>
+    <fecha nombre="28/02/2012"/>
+    <cajero nombre="01"/>
+    <turno nombre="1"/>
+    <comensales nombre="002"/>
+    <pag nombre="001"/>
+    <unit. nombre="2"/>
+    <descripción nombre="pan"/>
+    <precio nombre="1.20"/>
+    <importe nombre="2.40"/>
+    <unit. nombre="1"/>
+    <descripción nombre="bl mireia"/>
+    <precio nombre="12.00"/>
+    <importe nombre="12.00"/>
+    <unit. nombre="1"/>
+    <descripción nombre="parrillada verduras"/>
+    <precio nombre="9.30"/>
+    <importe nombre="9.30"/>
+    <unit. nombre="2"/>
+    <descripción nombre="paella pescado"/>
+    <precio nombre="13.90"/>
+    <importe nombre="27.80"/>
+    <unit. nombre="1"/>
+    <descripción nombre="tarta queso fresco"/>
+    <precio nombre="4.00"/>
+    <importe nombre="4.00"/>
+    <unit. nombre="1"/>
+    <descripción nombre="menta poleo"/>
+    <precio nombre="1.10"/>
+    <importe nombre="1.10"/>
+    <base nombre="56.60"/>
+    <por_iva nombre="7.00"/>
+    <iva nombre="3.96"/>
+    <total_importe nombre="60.56"/>
+</imagen>

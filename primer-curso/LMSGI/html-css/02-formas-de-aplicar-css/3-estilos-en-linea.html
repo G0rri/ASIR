@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            table {
+                border-collapse: collapse;
+                width: 100%;
+            }
+
+            th, td {
+                text-align: left;
+                padding: 8px;
+                border: 1px solid black;
+            }
+/* Aquí el :hover no tiene efecto: el atributo style de cada celda tiene más
+   especificidad que cualquier regla de la hoja de estilos. */
+            td:hover {background-color: white;}
+
+            th {
+                background-color: #ac4caf;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Tabla 2 CSS</h1>
+        <table>
+            <tr>
+                <th>Cabecera 1</th>
+                <th>Cabecera 2</th> 
+                <th>Cabecera 3</th>
+            </tr>
+            <tr>
+                <td style="background-color: green;">1000</td>
+                <td style="background-color: yellow;">300</td>
+                <td style="background-color: red;">100</td>
+            </tr>
+            <tr>
+                <td style="background-color: red;">50</td>
+                <td style="background-color: green;">950</td>
+                <td style="background-color: yellow;">450</td>
+            </tr>
+            <tr>
+                <td style="background-color: yellow;">550</td>
+                <td style="background-color: red;">150</td>
+                <td style="background-color: green;">850</td>
+            </tr>
+        </table>
+    </body>
+</html>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Ejercicio 7-->
+<!--En bicicleta hay una v que sobra, el < se sustituye por &lt;.
+y en patinete, el espacio entre velocidad y máxima le ponemos 
+por ejemplo un _ para que lo tome con un atributo solo.
+Y hay que cerrar la etiqueta patinete con />-->
+<mediosDeTransporte>
+<bicicleta velocidad="&lt;100/km/h"/>
+<patinete velocidad_maxima="50km/h"/>
+</mediosDeTransporte>

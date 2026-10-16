@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <!-- Los pseudoelementos ::before y ::after usan position: absolute respecto a .tarjeta (position: relative)
+         para dibujar las dos hojas giradas que asoman por detrás de la tarjeta. -->
+    <head>
+      <style> 
+        body { 
+          display:flex; 
+          flex-direction: column; 
+          justify-content:center; 
+          align-items: center; 
+        } 
+        .tarjeta {
+            background: url("https://www.lodgify.com/blog/wp-content/uploads/2019/11/tiny-house-cabin.jpg.webp");
+            background-size: contain;
+            box-shadow: 1px 1px 8px 4px lightgray;
+            display: flex;
+            flex-direction: column;
+            height: 300px;
+            justify-content: space-between;
+            margin: 80px auto;
+            position: relative;
+            width: 450px;
+        }
+        .tarjeta::after,
+        .tarjeta::before {
+            background: white;
+            border: 2px solid #c9bdbd;
+            content: '';
+            height: 100%;
+            left: 6px;
+            position: absolute;
+            top: 6px;
+            transform: rotate(20deg);
+            width: 100%;
+            z-index: -1;
+        }
+        .tarjeta::before {
+            left: 10px;
+            top: 20px;
+            transform: rotate(-30deg);
+        }
+        .tarjeta .texto {
+            display: flex;
+            justify-content: flex-end;
+        }
+        .tarjeta .nota {
+            align-items: center;
+            background: #00fd2ac0;
+            border-radius: 10%;
+            box-shadow: inset 0px 1px 5px 4px #fffbfbb5;
+            display: flex;
+            justify-content: center;
+            margin: 8px 8px;  
+            width: 31%;
+        }
+        .tarjeta .precio {
+            color: #ffffff;
+            font-size: 2rem;
+            font-style: Arial;
+            font-weight: 700;
+        }
+        .tarjeta .pie {
+            background: rgb(0, 0, 0);
+            color: white;
+            font-size: 2.5rem;
+            padding: 1px;
+            text-align: center;
+        }
+        </style>
+        </head>
+        <body>
+          <div class="tarjeta">
+          <div class="texto">
+          <div class="nota">
+          <div class="precio">1999€</div>
+          </div>
+          </div>
+          <div class="pie">¡Ofertón!</div>
+          </div>
+    </body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <style>
+                table {
+                    border-collapse: collapse;
+                    width: 100%;
+                }
+
+                th, td {
+                    text-align: left;
+                    padding: 8px;
+                    border: 1px solid black;
+                }
+
+                td[data-value="high"] {background-color: green;}
+                td[data-value="medium"] {background-color: yellow;}
+                td[data-value="low"] {background-color: red;}
+
+                td:hover {background-color: white;}
+
+                th {
+                    background-color: #ac4caf;
+                    color: white;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>Tabla 2 CSS</h1>
+            <table>
+                <tr>
+                    <th>Cabecera 1</th>
+                    <th>Cabecera 2</th> 
+                    <th>Cabecera 3</th>
+                </tr>
+                <tr>
+                    <td data-value="high">1000</td>
+                    <td data-value="medium">300</td>
+                    <td data-value="low">100</td>
+                </tr>
+                <tr>
+                    <td data-value="low">50</td>
+                    <td data-value="high">950</td>
+                    <td data-value="medium">450</td>
+                </tr>
+                <tr>
+                    <td data-value="medium">550</td>
+                    <td data-value="low">150</td>
+                    <td data-value="high">850</td>
+                </tr>
+            </table>
+        </body>
+    </html>

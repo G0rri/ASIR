@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% load bootstrap5 %}
+        {% bootstrap_css %}
+        {% bootstrap_javascript %}
+    </head>
+    <body>
+        <div class="container">
+        <h1>Members</h1>
+        <div class="table-responsive">
+            <table border="1" class="table table-hover">
+                <tr><th>Id Member</th><th>Full Name</th><th>Phone</th><th>Birth Date</th></tr>
+                    {% for x in mymembers %}
+                    <tr onclick="document.location='edit/{{ x.member_id }}'">
+                        <td>{{ x.member_id }}</td>
+                        <td>{{ x.full_name }}</td>
+                        <td>{{ x.phone }}</td>
+                        <td>{{ x.birth_date }}</td>
+                    </tr>
+                    {% endfor %}
+            </table>
+        </div>
+        </div>
+    </body>
+</html>

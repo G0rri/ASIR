@@ -1,0 +1,239 @@
+/* Estilos generales para el cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    background: #3399ff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Estilos para la sección del encabezado */
+header {
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos para el título del encabezado */
+header h1 {
+    margin: 0;
+    color: white; /* Cambia el color del título a blanco */
+}
+
+/* Estilos para el contenido principal */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    flex: 1; /* Permite que el main ocupe el espacio disponible */
+}
+
+/* Estilos para el formulario */
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
+
+/* Estilos para los grupos de formulario */
+.form-group {
+    margin-bottom: 15px;
+    text-align: left; /* Alinea el texto a la izquierda */
+}
+
+/* Estilos para las etiquetas de formulario */
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Estilos para los campos de entrada */
+.form-group input[type="text"],
+.form-group input[type="tel"],
+.form-group input[type="email"],
+.form-group input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Estilos para los botones */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+    font-family: Arial, sans-serif; /* Asegura que todos los botones usen la misma fuente */
+    font-size: 16px; /* Asegura que todos los botones tengan el mismo tamaño de fuente */
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.button-delete {
+    background-color: #dc3545;
+}
+
+.button-delete:hover {
+    background-color: #c82333;
+}
+
+.button-secondary {
+    background-color: #6c757d;
+}
+
+.button-secondary:hover {
+    background-color: #5a6268;
+}
+
+/* Nueva clase para el botón verde */
+.button-green {
+    background-color: #28a745;
+}
+
+.button-green:hover {
+    background-color: #218838;
+}
+
+/* Estilos para las imágenes en miniatura */
+.thumbnail {
+    display: block;
+    margin: 10px auto;
+    max-width: 100px;
+    border-radius: 50%;
+}
+
+.circle{
+  position: absolute;
+  border-radius: 50%;
+  background: white;
+  animation: ripple 15s infinite;
+  box-shadow: 0px 0px 1px 0px #508fb9;
+}
+
+.small{
+  width: 200px;
+  height: 200px;
+  right: 800px;
+  bottom: -100px;
+}
+
+.medium{
+  width: 400px;
+  height: 400px;
+  right: 700px;
+  bottom: -200px;
+}
+
+.large{
+  width: 600px;
+  height: 600px;
+  right: 600px;
+  bottom: -300px;
+}
+
+.xlarge{
+  width: 800px;
+  height: 800px;
+  right: 500px;
+  bottom: -400px;
+}
+
+.xxlarge{
+  width: 1000px;
+  height: 1000px;
+  right: 400px;
+  bottom: -500px;
+}
+
+.shade1{
+  opacity: 0.2;
+}
+.shade2{
+  opacity: 0.5;
+}
+
+.shade3{
+  opacity: 0.7;
+}
+
+.shade4{
+  opacity: 0.8;
+}
+
+.shade5{
+  opacity: 0.9;
+}
+
+@keyframes ripple{
+  0%{
+    transform: scale(0.8);
+  }
+  
+  50%{
+    transform: scale(1.2);
+  }
+  
+  100%{
+    transform: scale(0.8);
+  }
+}
+
+/* Estilos para el contenedor de la galería */
+.gallery-horizontal {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Estilos para cada elemento de la galería */
+.gallery-item {
+  text-align: center; /* Centra el contenido dentro de cada elemento */
+  margin: 10px;
+}
+
+/* Estilos para las imágenes de la galería */
+.gallery-item img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Estilos para el nombre del contacto */
+.gallery-item p {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Estilos para la sección del pie de página */
+footer {
+    text-align: center;
+    padding: 15px;
+    border-top: 1px solid #ddd;
+    margin-top: 20px;
+}
+
+/* Estilos para centrar el botón en el nav */
+nav {
+    text-align: center;
+    margin-top: 20px;
+}

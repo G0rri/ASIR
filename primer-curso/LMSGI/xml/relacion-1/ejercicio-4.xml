@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libro>
+    <titulo></titulo>
+    <autores></autores>
+    <editorial></editorial>
+    <año_de_publicacion></año_de_publicacion>
+    <ISBN></ISBN>
+</libro>

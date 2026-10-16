@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libro>
+    <titulo>Platero y yo</titulo>
+    <autores>Juan Ramón Jiménez</autores>
+    <editorial>La Lectura</editorial>
+    <año_de_publicacion>1914</año_de_publicacion>
+    <ISBN>9788423918584</ISBN>
+</libro>

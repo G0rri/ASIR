@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Ejercicio 4-->
+<!--El error estaba en el espacio entre geografía y mundial, y en capital, 
+encontramos el nombre Madrid en la parte de cierre, la cual no es posible que se situe ahí. 
+Puedes solucionarlo trasdalandola a la parte de apertura de capital, 
+o poner Madrid como en las anteriores.-->
+<geografia_mundial>
+<pais>
+    <pais>España</pais>
+    <continente>Europa</continente>
+    <capital nombre="Madrid"/>
+</pais>
+</geografia_mundial>

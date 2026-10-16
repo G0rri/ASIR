@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mensaje>
+    <remite>
+        <nombre nombre="Alfredo Reino"/>
+        <email nombre="alfredo@example.com"/>
+    </remite>
+    <destinatario>
+        <nombre nombre="Bill Clinton"/>
+        <email nombre="presidente@example.org"/>
+    </destinatario>
+    <asunto nombre="Hola Bill"/>
+    <texto>
+        <parrafo nombre="¿Hola qué tal? ..."/>
+        <a>...</a>
+    </texto>
+</mensaje>

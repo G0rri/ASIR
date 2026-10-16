@@ -1,0 +1,131 @@
+/* Estilos generales para el cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Estilos para la sección del encabezado */
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos para el título del encabezado */
+header h1 {
+    margin: 0;
+}
+
+/* Estilos para la barra de navegación dentro del encabezado */
+header nav {
+    margin-top: 10px;
+}
+
+/* Estilos para los botones de navegación principales */
+nav a.button {
+    text-decoration: none;
+    color: white;
+    /* padding: 10px 20px; */
+    background-color: #0056b3;
+    border-radius: 5px;
+    margin: 0 5px;
+    font-size: 14px;
+}
+
+/* Efecto hover para los botones de navegación principales */
+nav a.button:hover {
+    background-color: #003d80;
+}
+
+/* Estilos para los botones de navegación secundarios */
+nav a.button-secondary {
+    background-color: #6c757d;
+}
+
+/* Efecto hover para los botones de navegación secundarios */
+nav a.button-secondary:hover {
+    background-color: #5a6268;
+}
+
+/* Estilos para el contenido principal */
+main {
+    padding: 20px;
+}
+
+/* Estilos para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+/* Estilos para el encabezado de la tabla */
+table thead {
+    background-color: #007BFF;
+    color: white;
+}
+
+/* Estilos para las celdas de la tabla */
+table th, table td {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Efecto hover para las filas de la tabla */
+table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Estilos para las imágenes en miniatura */
+.thumbnail {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Estilos generales para los botones */
+.button {
+    text-decoration: none;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 14px;
+    text-align: center;
+}
+
+/* Estilos para el botón de edición */
+.button-edit {
+    background-color: #28a745;
+}
+
+/* Efecto hover para el botón de edición */
+.button-edit:hover {
+    background-color: #218838;
+}
+
+/* Estilos para el botón de eliminación */
+.button-delete {
+    background-color: #dc3545;
+}
+
+/* Efecto hover para el botón de eliminación */
+.button-delete:hover {
+    background-color: #c82333;
+}
+
+/* Estilos para la sección del pie de página */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-top: 1px solid #ddd;
+    margin-top: 20px;
+}

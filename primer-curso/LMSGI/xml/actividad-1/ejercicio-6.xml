@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Ejercicio 6-->
+<!--El primer error está en la palabra España, ya que no tiene atributo.
+Y el 1982 no tiene etiqueta ni atributo.-->
+<mundiales-de-futbol>
+<mundial>
+<pais nombre="España"/>
+<año nombre="1982"/>
+</mundial>
+</mundiales-de-futbol>

@@ -1,0 +1,66 @@
+[
+    {
+        "id": "2",
+        "nombre": "María López",
+        "telefono": "987654321",
+        "email": "maria.lopez@example.com",
+        "imagen": "maria_lopez.png",
+        "password": "M@ri4*321"
+    },
+    {
+        "id": "3",
+        "nombre": "Carlos García",
+        "telefono": "654321987",
+        "email": "carlos.garcia@example.com",
+        "imagen": "carlos_garcia.png",
+        "password": "*PySxzAq"
+    },
+    {
+        "id": "67a35274cf2e6",
+        "nombre": "Antonio Pérez",
+        "telefono": "230649225",
+        "email": "antonio.perez@example.com",
+        "imagen": "antonio_perez.png",
+        "password": "123"
+    },
+    {
+        "id": "67a352b2c135a",
+        "nombre": "Belén Tevez",
+        "telefono": "999827427",
+        "email": "belen.tevez@example.es",
+        "imagen": "belen_tevez.png",
+        "password": "S43L^tlI"
+    },
+    {
+        "id": "67a353c0c5874",
+        "nombre": "Hugo Palmero",
+        "telefono": "254678901",
+        "email": "hugo.palmero@example.com",
+        "imagen": "hugo_palmero.png",
+        "password": "havdasv"
+    },
+    {
+        "id": "67a353e67f578",
+        "nombre": "Juan Miguel",
+        "telefono": "123122112",
+        "email": "juan.miguel@example.odoo.com",
+        "imagen": "juan_miguel.png",
+        "password": "@x(vMlpQ"
+    },
+    {
+        "id": "67a35487e6f1c",
+        "nombre": "Leonardo DaVinci",
+        "telefono": "987655656",
+        "email": "leonardo.davinci@example.es",
+        "imagen": "leonardo_davinci.png",
+        "password": ")PKTm#hO"
+    },
+    {
+        "id": "67a355c4847a9",
+        "nombre": "Ana Fernandez",
+        "telefono": "765099089",
+        "email": "ana.fernandez@example.com",
+        "imagen": "ana_fernandez.png",
+        "password": "bahojabvhfovba"
+    }
+]

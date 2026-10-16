@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tarjeta_de_visita>
+    <nombre></nombre>
+    <apellido></apellido>
+    <profesión></profesión>
+    <empresa></empresa>
+    <cargo></cargo>
+    <dirección></dirección>
+    <teléfono></teléfono>
+</tarjeta_de_visita>

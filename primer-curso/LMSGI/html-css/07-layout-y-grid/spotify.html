@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                background-color: black;
+            } 
+            h4 {
+                color: white;
+            }
+            .grid-container {
+                display: grid;
+                grid-template-areas:
+                    'menu main main main main main';
+                gap: 10px;
+                padding: 10px;
+            }
+            .item {
+                grid-area: menu;
+                background-color: rgb(43, 41, 41);
+                border-radius: 10px;
+                padding: 20px 0;
+                font-size: 25px;
+                color: rgb(163, 162, 162);
+            }
+            .itemA {
+                grid-area: menu;
+                background-color: rgb(43, 41, 41);
+                grid-row: 2 / span 2;
+                border-radius: 10px;
+                padding: 20px 0;
+                font-size: 20px;
+                color: rgb(163, 162, 162);
+            }
+            .itemB {
+                background-color: rgb(75, 70, 70);
+                border-radius: 10px;
+                color: white;
+                width: 97%;
+            }
+            .item1 {
+                grid-area: main;
+                background-color: rgb(43, 41, 41);
+                border-radius: 10px;
+            }
+            .item1A {
+                display: flex;
+                background-color: white;
+                color: black;
+                border-radius: 100px;
+                padding: 16px;
+                width: 20%;
+            }
+            .item1AA {
+                background-color: white;
+                color: black;
+                border-radius: 100px;
+                padding: 16px;
+                width: 35%;
+            }
+            .item:hover {
+                color: white;
+                cursor: pointer;
+            }
+            .itemL {
+                font-size: 16px;
+            }
+            .item1B {
+                color: rgb(255, 255, 255);
+                border-radius: 100px;
+                padding: 5px;
+                width: 26%;
+                font-size: 15px;
+                
+            }
+            .item1c{
+                background-color: rgb(36, 34, 34);
+                padding: 5px;
+                font-size: 20px;
+                color: rgb(163, 162, 162);
+            }
+            .item1q{
+                background-color: rgb(36, 34, 34);
+                padding: 15px;
+                font-size: 15px;
+                color: rgb(255, 255, 255);
+            }
+            .white {
+                color: white;
+                font-size: 30px;
+            }
+            .c1 {
+                background-color: rgb(36, 34, 34);
+                border-radius: 10px;
+                color: rgb(161, 159, 159);
+                width: 15%;
+            }
+            .item2 {
+                grid-area: main;
+                background-color: rgb(43, 41, 41);
+                grid-row: 2 / span 2;
+                border-radius: 10px;
+            }
+            .lw {
+                color: rgb(161, 159, 159);
+            }
+            
+            footer {
+                display: flex;
+                border-radius: 10px;
+                align-items: center;
+                width: 315%;
+                height: 60px; 
+                background:linear-gradient(30deg, crimson,sienna, royalblue, indianred, purple);
+                color: #fff; 
+            }
+        </style>
+        <body class="grid-container">
+            <div class="item">
+                <img height="30px" src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_White.png" alt="Logo">
+            <div><img height="40px" src="https://cdn.icon-icons.com/icons2/602/PNG/512/Home_icon-icons.com_55890.png" alt="Casa"> Inicio</div>
+            <div><img height="40px" src="https://static.vecteezy.com/system/resources/previews/009/589/474/large_2x/magnifying-icon-magnifying-clipart-transparent-free-png.png" alt="Lupa"> Buscar</div>
+        </div>
+        <div class="itemA">
+            <img height="40px" src="https://images.vexels.com/media/users/3/157555/isolated/lists/2b48b29abd18febe3b1f92a85913ce39-icono-de-libro-simple.png" alt="Libro"> Tu biblioteca<img height="40px" style="margin-right: auto;" src="https://cdn-icons-png.flaticon.com/512/7046/7046041.png" alt="Más">
+            <div class="itemB"><h3>Crea tu primera lista</h3><p>Es muy fácil, y te echaremos una mano.</p><div class="item1A">Crear Lista</div></div>
+            <div class="itemB"><h3>Encuentra pódcasts que quieras seguir</h3><p>Te avisaremos cuando salgan nuevos episodios</p><div class="item1AA">Explorar pódcasts</div></div>
+            <div class="itemL"><p>Legal  Centro de Privacidad Política de Privacidad <br>Configuración de cookies Información sobre los anuncios <br>Accesibilidad <br>Cookies</p></div>
+            <div class="item1B"><img height="25px" src="https://png2.cleanpng.com/sh/fc6f9d68e7100993b4774fad2db038fa/L0KzQYm3V8I4N6VskZH0aYP2gLBuTfNwdaF6jNd7LXnmf7B6Tfdtd5NqRddqcoTrPcj2kvxlNZhxeeV8LXfvf7PsTcVjPZNoSaVrOXHmQYi5Tsc0PWcATacAMUW2Qoi6Wcg6QWc4S6s3cH7q/kisspng-computer-icons-globe-earth-world-glass-globe-5b5bc13b9ac172.7356955515327398996339.png" alt="Mundo">Español de España</div>
+        </div>
+            
+
+            <div class="item1">
+                <div class="item1c">
+                    <img height="18px" src="https://images.vexels.com/media/users/3/204828/isolated/lists/8eacae51fbf6d721a1ab54dc68bec1f6-trazo-menor-que-el-simbolo.png" alt="Menor que" class="item1c">
+                    <img height="18px" src="https://images.vexels.com/media/users/3/204785/isolated/lists/c1983477b98af1af1f71cd2a50c19878-mayor-que-el-trazo-del-simbolo.png" alt="Mayor que">Registrarte Iniciar sesión</div>
+                    <div class="white">Listas de Spotify</div>
+                    
+            </div>
+            <div class="item2"><div class="c1"><img height="100px" src="https://mussica.info/wp-content/uploads/2021/03/juan-pablo-machado-profesional-work-chilledcow-1.jpeg" alt="Lofi"><br>Lofi music, chill, calm, focus etc, etc.</div>
+            <div class="c1"><img height="135px" src="https://img.gta5-mods.com/q95/images/xxxtentacion-sad-instrumental-loading-screen-music/a89661-SAD.jpg" alt="Lofi"><br>Sad music, bad times good vibes.</div>
+            <div><h4>Empresa</h4></div><div class="lw"><p>Acerca de Empleo <br>Empleo <br>For the Record</p></div>
+            <div><h4>Enlaces útiles</h4></div><div class="lw"><p>Asistencia<br>App gratis para móvil</p><hr>© 2024 Spotify AB</div>
+        </div>
+        <footer><h5>Regístrate y disfruta de música ilimitada y de calidad</h5></footer>
+        </body>
+    </head>
+</html>

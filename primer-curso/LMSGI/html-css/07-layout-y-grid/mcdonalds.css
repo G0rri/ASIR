@@ -1,0 +1,46 @@
+.cabecera {
+                background-color: rgb(255, 0, 0);
+                padding: 15px;
+                text-align: center;
+            }
+            .barra {
+                overflow: hidden;
+                background-color: rgb(206, 203, 21);
+                grid-template-columns: auto auto;
+                display: grid;
+                box-shadow: 0 3px 6px;
+            }
+            .barra a {
+                float: left;
+                color: #000000;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            .barra a:hover {
+                background-color: white;
+                color: black;
+            }
+            table {
+                        border-collapse: collapse;
+                        width: 100%;
+            }
+            th, td {
+                text-align: left;
+                padding: 8px;
+                border: 1px solid black;
+            }
+            .columna.centro {
+                width: 75%;
+                border: solid;
+                background-color: rgb(238, 231, 231);
+            }
+            footer {
+                background-color: #000000;
+                padding: 50px;
+                color: white;
+                height: 170px;
+            }
+            footer table {
+                width: 700px;
+            }

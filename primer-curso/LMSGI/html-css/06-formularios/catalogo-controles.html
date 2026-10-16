@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            h1 {
+                font-style:italic;
+            }
+        </style>
+        <body>
+            <!--ejem_autofocus 160-->
+            <h1>ejem_autofocus 160</h1>
+        <form action="/action_page.php">
+                Primer nombre:<input type="text" name="pname" autofocus><br>
+                Último nombre:<input type="text" name="lname"><br>
+                    <input type="submit">
+        </form>
+            <!--ejem_chekbox1 135-->
+            <h1>ejem_chekbox1 135</h1>
+        <form action="/action_page.php">
+                Aceptar condiciones de contrato:
+                <input type="checkbox" name="aceptar condiciones"/>
+                <br><br>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpiar">
+        </form>
+            <!--ejem_chekbox2 136-->
+            <h1>ejem_chekbox2 136</h1>
+        <form action="/action_page.php">
+                Aceptar condiciones de contrato:
+                <input type="checkbox" name="aceptar condiciones"/>
+                <br><br>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpiar">
+        </form>
+            <!--ejem_checkbox3 137-->
+            <h1>ejem_checkbox3 137</h1>
+        <form action="/action_page.php">
+            Aceptar condiciones de contrato:
+            <input type="checkbox" name="aceptar condiciones" checked value="Si"/>
+            <br><br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpiar">
+        </form>
+            <!--ejem_date1 139-->
+            <h1>ejem_date1 139</h1>
+        <form action="/action_page.php">
+                <input type="date" name="fecha" placeholder="fecha de nacimiento"/>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpiar">
+        </form>
+            <!--ejem_date2 140-->
+            <h1>ejem_date2 140</h1>
+        <form>
+                Mirar una fecha anterior a 01-01-1980:
+                <input type="date" name="fecha1" max="1979-12-31"/><br>
+                Mirar una fecha anterior a 01-01-2000:
+                <input type="date" name="fecha2" min="2000-01-02"/><br>
+        </form>
+            <!--ejem_datetimelocal 141-->
+            <h1>ejem_datetimelocal 141</h1>
+        <form action="/action_page.php">
+            Cumpleaños (fecha y hora):
+            <input type="datetime-local" name="fechayhora">
+            <input type="submit" value="Enviar">
+        </form>
+            <!--ejem_disabled 156-->
+            <h1>ejem_disabled 156</h1>
+        <form>
+            <input type="text" name="curso" value="ASIR" disabled><br>
+            <input type="text" name="nombre" placeholder="Teclea tu nombre"><br>
+            <input type="submit" value="Enviar">
+        </form>
+            <!--ejem_email 142-->
+            <h1>ejem_email 142</h1>
+        <form action="/action_page.php">
+            <input type="email" name="correo" placeholder="Teclea el email">
+            <input type="submit" value="Guardar">
+            <input type="reset" value="Limpiar">
+        </form>
+            <!--ejem_fieldset 197 por cierto este ejercicio está repetido en el último ejercicio-->
+            <h1>ejem_fieldset 197</h1>
+        <form>
+            <fieldset>
+                <legend>Datos personales</legend>
+                <label for="nombre">Indica tu nombre:</label>
+                <input type="text" name="nombre" id="nombre"/>
+                <label for="ape">Indica tus apellidos:</label>
+                <input type="text" name="apellidos" id="ape">
+            </fieldset>
+            <br>
+            <input type="submit" value="Enviar">
+        </form>
+        <p><b>por cierto este ejercicio está repetido en el último ejercicio</b></p>
+            <!--ejem_file 143-->
+            <h1>ejem_file 143</h1>
+        <form action="/action_page.php">
+            Seleccionar un fichero:<input type="file" name="myFile"><br><br>
+            <input type="submit" value="Enviar">
+        </form>
+            <!--ejem_maxlength 158-->
+            <h1>ejem_maxlength 158</h1>
+        <form>
+            <input type="text" name="nombre" placeholder="Tu nombre" maxlength="10">
+            <br>
+            <input type="text" name="apellidos" placeholder="Tus apellidos" maxlength="15">
+            <br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpiar">
+        </form>
+            <!--ejem_month 144-->
+            <h1>ejem_month 144</h1>
+        <form>
+            Cumpleaños (mes y año):
+            <input type="month" name="mes">
+            <input type="submit" value="Buscar">
+            <input type="reset" value="Limpiar">
+        </form>
+            <!--ejem_name 130-->
+            <h1>ejem_name 130</h1>
+        <form action="/action_page.php">Nombre: <br>
+            <input type="text" value="Mickey"><br>
+            Apellido: <br>
+            <input type="text" name="apellido" value="Mouse"><br><br>
+            <input type="submit" value="submit">
+        </form>
+            <!--ejem_number 145-->
+            <h1>ejem_number 145</h1>
+        <form>
+            Cantidad (entre 1 y5):
+            <input type="number" name="Cantidad" min="1" max="5">
+        </form>
+            <!--ejem_pattern1 166-->
+            <h1>ejem_pattern1 166</h1>
+        <form>
+            <input type="text" name="curso" pattern="[Aa]sir" placeholder="asir o Asir"><br>
+            <input type="submit" value="Enviar">
+        </form>
+            <!--ejem_pattern2 167-->
+            <h1>ejem_pattern2 167</h1>
+        <form>
+            <input type="text" name="color" pattern="(rojo|Rojo|verde|Verde|azul|Azul)" placeholder="Teclea un color RGB"><br>
+            <input type="submit" value="Enviar">
+        </form>
+            <!--ejem_pattern3 169-->
+            <h1>ejem_pattern3 169</h1>
+        <form>
+            <input type="text" name="numeros" pattern="abc?" placeholder="validos ab y abc"><br>
+            <input type="submit" value="Enviar">
+        </form>
+            <!--ejem_radio1 133-->
+            <h1>ejem_radio1 133</h1>
+        <form name="ASIR1" method="post" action="/action_page-php">
+            Color:
+            Rojo<input type="radio" name="elcolor">
+            Verde<input type="radio" name="elcolor" checked>
+            Azul<input type="radio" name="elcolor">
+            <br>
+            <br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpiar">
+        </form>
+            <!--ejem_radio2 134-->
+            <h1>ejem_radio2 134</h1>
+        <form>
+            Color:
+            Rojo<input type="radio" name="elcolor" checked value="rojo">
+            Verde<input type="radio" name="elcolor" value="verde">
+            Azul<input type="radio" name="elcolor" value="azul">
+            <br>
+            <br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpiar">
+        </form>
+            <!--ejem_range 146-->
+            <h1>ejem_range 146</h1>
+        <form>
+            Cantidad (entre 1 y 5):
+            <input type="range" name="puntos" min="0" max="10">
+        </form>
+            <!--ejem_readonly 155-->
+            <h1>ejem_readonly 155</h1>
+        <form>
+            <input type="text" name="curso" value="ASIR" readonly>
+            <br>
+            <input type="text" name="nombre" placeholder="Teclea tu nombre">
+            <br>
+            <input type="submit" value="Enviar">
+        </form>
+            <!--ejem_required 162-->
+            <h1>ejem_required 162</h1>
+        <form>
+            <input type="text" name="nombre" placeholder="Teclea tu nombre" required>
+            <input type="submit" value="Enviar">
+        </form>
+            <!--ejem_search 147-->
+            <h1>ejem_search 147</h1>
+        <form>
+            Buscar en Google:
+            <input type="search" name="googlesearch">
+        </form>
+            <!--ejem_select1 190-->
+            <h1>ejem_select1 190</h1>
+        <form>
+            <select name="provincia">
+                <option>Toledo</option>
+                <option>Albacete</option>
+                <option>Cuenca</option>
+                <option>Ciudad Real</option>
+                <option>Guadalajara</option>
+            </select>
+            <br> <br>
+            <input type="submit" value="Enviar">
+        </form>
+            <!--ejem_select2 191-->
+            <h1>ejem_select2 191</h1>
+        <form>
+            <select name="provincia">
+                <option>Toledo</option>
+                <option>Albacete</option>
+                <option selected>Cuenca</option>
+                <option>Ciudad Real</option>
+                <option>Guadalajara</option>
+            </select>
+            <br> <br>
+            <input type="submit" value="Enviar">
+        </form>
+            <!--ejem_selectmultiple 195-->
+            <h1>ejem_selectmultiple 195</h1>
+        <form>
+            <select name="provincia[]" size="5" multiple>
+                <option value="TO">Toledo</option>
+                <option value="AB">Albacete</option>
+                <option value="CU">Cuenca</option>
+                <option value="CR">Ciudad Real</option>
+                <option value="GU">Guadalajara</option>
+            </select>
+            <br> <br>
+            <input type="submit" value="Enviar">
+        </form>
+            <!--ejem_textarea1 186-->
+            <h1>ejem_textarea1 186</h1>
+        <form>
+            Comentario: <br>
+            <textarea name="Comentario"></textarea>
+            <br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpiar">
+        </form>
+            <!--ejem_textarea2 188-->
+            <h1>ejem_textarea2 188</h1>
+        <form>
+            <textarea name="Comentario" placeholder="Escribe tu Comentario.." rows="5" cols="30"></textarea>
+            <br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpiar">
+        </form>
+            <!--ejem_texto_password 128-->
+            <h1>ejem_texto_password 128</h1>
+        <form name="daw1" method="post" action="/action_page-php">
+            <input type="password" name="clave" placeholder="Teclea tu clave">
+            <input type="submit" value="Guardar">
+            <input type="reset" value="Limpiar">
+        </form>
+            <!--form1.html 122-->
+            <h1>form1.html 122</h1>
+        <form action="https://www.google.com/search" method="get">
+            Google:
+            <input type="search" name="q">
+            <input type="submit" value="Buscar">
+        </form>
+            <!--form2.html 129-->
+            <h1>form2.html 129</h1>
+        <form>
+            Nombre:<br>
+            <input type="text" name="nombre"><br>
+            Apellido: <br>
+            <input type="text" name="apellido"><br><br>
+            <input type="submit" value="Enviar Datos">
+        </form>
+            <!--form3.html 131-->
+            <h1>form3.html 131</h1>
+        <form name="asir1" action="/action_page.php">
+            Nombre:<br>
+            <input type="text" name="nombre"><br>
+            Edad:<br>
+            <input type="number"><br><br>
+            <input type="submit" value="Enviar datos">
+            <p>Lo que permite de nuevo es identificar este <br> formulario mediante un nombre pudiendo repetirse.</p>
+        </form>
+            <!--form7.html 173-->
+            <h1>form7.html 173</h1>
+        <form>
+            <input type="password" name="Nombre" placeholder="Tu clave" pattern="[A-Za-z0-9] {4,8}" title="De 4 a 8 ya sea con mayúsculas o digitos numéricos"><br><br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpiar">
+        </form>
+            <!--form8.html 174-->
+            <h1>form8.html 174</h1>
+        <form>
+            <input type="text" name="código" placeholder="Teclea tu código" pattern=".{5,}" title="Mínimo 5 caracteres."><br><br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpiar">
+        </form>
+            <!--form9.html 198-->
+            <h1>form9.html 198</h1>
+        <form>
+            <fieldset>
+                <legend> Datos personales </legend>
+                <label for="nombre">Indica tu nombre:</label>
+                <input type="text" name="nombre" id="nombre">
+                <label for="ape">Indica tus apellidos</label>
+                <input type="text" name="apellidos" id="ape">
+            </fieldset><br>
+            <input type="submit" value="Enviar">
+        </form>
+        </body>
+    </head>
+</html>

@@ -1,0 +1,19 @@
+select * from members_member;
+update members_member set firstname='Pedro', lastname='Lopez' where id=2;
+
+create table court (
+id INTEGER PRIMARY KEY AUTOINCREMENT,
+description VARCHAR(30),
+court_type INTEGER
+);
+
+INSERT INTO court values
+(null, 'Ext1', 1);
+(null, 'Ext2', 1);
+(null, 'Ext3', 2);
+(null, 'Int1', 2);
+
+select * from court;
+
+alter table court
+rename to members_court;

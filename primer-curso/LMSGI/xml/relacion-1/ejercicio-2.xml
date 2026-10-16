@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Solo he puesto un _ en volumen ventas y en país origen-->
+<CATÁLOGO>
+<DISCO>
+<TÍTULO>Thriller</TÍTULO>
+<ARTISTA>Michael Jackson</ARTISTA>
+<PAÍS_ORIGEN>USA</PAÍS_ORIGEN>
+<AÑO>1982</AÑO>
+<VOLUMEN_VENTAS>65 millones</VOLUMEN_VENTAS>
+</DISCO>
+<DISCO>
+<TÍTULO>The Dark Side Of The Moon</TÍTULO>
+<ARTISTA>Pink Floyd</ARTISTA>
+<PAÍS_ORIGEN>UK</PAÍS_ORIGEN>
+<AÑO>1973</AÑO>
+<VOLUMEN_VENTAS>50 millones</VOLUMEN_VENTAS>
+</DISCO>
+<TÍTULO>Back in Black</TÍTULO>
+<ARTISTA>AC/DC</ARTISTA>
+<PAÍS_ORIGEN>Australia</PAÍS_ORIGEN>
+<AÑO>1980</AÑO>
+<VOLUMEN_VENTAS>50 millones</VOLUMEN_VENTAS>
+</CATÁLOGO>

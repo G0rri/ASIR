@@ -1,0 +1,49 @@
+<!doctype html>
+<title>Currículum</title>
+<style>
+#outer-grid {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 8px;
+  grid-auto-flow: column;
+}
+#outer-grid > div {
+  background-color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  padding: 8px;
+}
+#inner-grid {
+  display: grid;
+  grid-template-columns: 1fr 8fr;
+  grid-gap: 5px;
+}
+#inner-grid > div {
+  background: rgb(255, 255, 255);
+  text-align: center;
+}
+</style>
+<div id="outer-grid">
+  <div id="inner-grid">
+    <svg width="300" height="200" viewBox="0 0 300 200" role="img" aria-label="Avatar genérico"><rect width="300" height="200" fill="#dfe6f3"/><circle cx="150" cy="78" r="42" fill="#8a9bb8"/><path d="M70 200a80 70 0 0 1 160 0z" fill="#8a9bb8"/></svg>
+    <div style="background-color: rgb(54, 105, 248);" ><h1>Nombre Apellido Apellido</h1><h3>Estudiante de ASIR</h3></div>
+    <div style="background-color: rgb(98, 202, 243); width: 300px;"><br><u>Contacto</u>
+      <br>Tlf +34 600 000 000<br><br>
+      <u>Calle</u><br>Calle Ejemplo, 1<br><br>
+      <u>Email</u><br>nombre.apellido@example.com<br><br><hr><br>
+      <u>Aptitudes</u><br><br>- Ganas de hacer las cosas bien<br><br>- Trabajo en equipo<br><br>- Rigor científico en mis acciones<br><br><hr><br>
+      <u>Idioma</u><br><br>• Español (Nativo)<br><br>• Inglés nivel Bachillerato<br><br><hr></div>
+    <div>
+      <h2>Formación Academica</h2>
+      <p><br><b>ASIR - Técnico de Informática</b>
+        <br> Ciudad | 09/2023 - actualidad<br><br>
+        <b>Bachillerato</b><br> Ciudad | 20XX - 20XX <br>
+        <hr>
+      <h2>Experiencia Laboral</h2>
+      <br><b>Puesto de ejemplo</b> · Empresa | Fechas
+      <br>• Descripción de las tareas realizadas.
+      <br></p>
+      <hr>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--El a) al no poner una etiqueta dará error. El standlone lo que hace es si es el documento independiente o no.
+El b) funciona.
+En el c) se debe de especificar al menos el tipo de version, si no da error.
+El d) funciona.
+El e) funciona.
+En el f) no puede haber un espacio en la etiqueta-->
+<d/>

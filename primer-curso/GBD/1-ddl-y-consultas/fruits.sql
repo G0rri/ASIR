@@ -1,0 +1,110 @@
+CREATE TABLE worker (
+	worker_id INT PRIMARY KEY AUTO_INCREMENT,
+	name VARCHAR(30),
+	born_date DATE
+);
+CREATE TABLE fruit (
+	fruit_id INT PRIMARY KEY AUTO_INCREMENT,
+	specie VARCHAR(30),
+	variety VARCHAR(30)
+);
+CREATE TABLE parcel (
+	parcel_id INT PRIMARY KEY AUTO_INCREMENT,
+	surface INT,
+	num_trees INT,
+	fruit_id INT,
+	FOREIGN KEY (fruit_id) REFERENCES fruit(fruit_id)
+);
+CREATE TABLE harvest (
+	harvest_date DATE,
+	worker_id INT,
+	parcel_id INT,
+	kilos INT,
+	PRIMARY KEY (harvest_date, worker_id,parcel_id),
+	FOREIGN KEY (worker_id) REFERENCES worker(worker_id),
+	FOREIGN KEY (parcel_id) REFERENCES parcel(parcel_id)
+);
+
+INSERT INTO worker VALUES
+	(NULL,'García López, Juan','1967-10-10'),
+	(NULL,'Stropov, Igor','1988-12-21'),
+	(NULL,'Pérez Díaz, Ana','1999-11-22'),
+	(NULL,'Rivas Conde, Amancio','1954-12-11'),
+	(NULL,'Kamarazova, Tatiana','1970-09-23'),
+	(NULL,'Yamamoto, Koji','1970-04-13'),
+	(NULL,'Smith, Margaret','1999-08-30'),
+	(NULL,'Pérez García, José','2000-12-14'),
+	(NULL,'Maroto Rojas, Luis','1998-02-15'),
+	(NULL,'Pereira Gómez, Juan','1997-09-15'),
+	(NULL,'Maroto Gómez, Juana','1980-01-02');
+INSERT INTO fruit VALUES 
+	(NULL,'Pear','Ercoline'),
+	(NULL,'Pear','Blanquilla'),
+	(NULL,'Pear', 'Rocha'),
+	(NULL,'Apple','Red'),
+	(NULL,'Apple','Yellow'),
+	(NULL,'Orange','Clementine');
+INSERT INTO parcel VALUES 
+	(NULL,10,3000,1),
+	(NULL,12,3500,1),
+	(NULL,13,4000,4),
+	(NULL,22,7000,2),
+	(NULL,21,6900,2),
+	(NULL,19,6800,2),
+	(NULL,10,3200,3),
+	(NULL,25,654,3);
+INSERT INTO harvest VALUES 
+	('2021-11-28',1,1,300),
+	('2021-11-28',1,2,350),
+	('2021-11-28',2,1,275),
+	('2021-11-28',3,2,290),
+	('2021-11-28',3,3,315),
+	('2021-11-28',3,4,120),
+	('2021-11-28',4,1,135),
+	('2021-11-28',4,2,223),
+	('2021-11-29',2,2,221),
+	('2021-11-29',2,3,342),
+	('2021-11-29',3,4,110),
+	('2021-11-29',3,5,213),
+	('2021-11-29',4,1,255),
+	('2021-11-29',5,2,188),
+	('2021-11-29',5,3,321),
+	('2021-11-29',5,4,101),
+	('2021-11-29',6,1,299),
+	('2021-12-01',3,1,542),
+	('2021-12-01',4,1,229),
+	('2021-12-01',9,1,120),
+	('2021-12-01',9,2,388),
+	('2021-12-01',1,1,450),
+	('2021-12-01',1,2,430),
+	('2021-12-01',2,1,287),
+	('2021-12-01',5,1,214),
+	('2021-12-01',5,3,400),
+	('2021-12-01',8,4,278),
+	('2022-11-18',1,1,330),
+	('2022-11-18',1,2,350),
+	('2022-11-28',2,1,275),
+	('2022-11-28',3,2,290),
+	('2022-11-28',3,3,315),
+	('2022-11-28',3,4,120),
+	('2022-11-28',4,1,138),
+	('2022-11-28',4,2,227),
+	('2022-11-29',2,2,226),
+	('2022-11-29',2,3,347),
+	('2022-11-29',3,4,116),
+	('2022-11-29',3,5,243),
+	('2022-11-29',4,1,355),
+	('2022-11-29',5,2,288),
+	('2022-11-29',5,3,361),
+	('2022-11-29',5,4,141),
+	('2022-11-30',6,1,249),
+	('2022-12-01',3,1,22),
+	('2022-12-01',4,1,239),
+	('2022-12-01',9,1,124),
+	('2022-12-01',9,2,389),
+	('2022-12-01',1,1,456),
+	('2022-12-01',1,2,440),
+	('2022-12-01',2,1,187),
+	('2022-12-01',5,1,314),
+	('2022-12-02',5,3,405),
+	('2022-12-02',8,4,268);

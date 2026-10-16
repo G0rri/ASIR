@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <style>
+            #spain-map {
+                position: relative;
+                width: 500px;
+                height: 500px;
+                background: url('https://upload.wikimedia.org/wikipedia/commons/8/88/Spain_location_map.svg');
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
+            .fondo {
+                background-color: rgba(223, 24, 24, 0.527);
+                background: linear-gradient(45deg, rgb(0, 183, 255) 5%, rgb(194, 255, 192) 60%);
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-position: center;
+            }
+            .ciudad {
+                position: absolute;
+                width: 20px;
+                height: 20px;
+                background: red;
+            }
+            .centro {
+                text-align: center;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            #madrid { top: 166px; left: 201px; }
+            #barcelona { top: 123px; left: 400px; }
+            #galicia { top: 63px; left: 58px; }
+        </style>
+    </head>
+    <body class="centro fondo">
+        <h1><mark>Mapa Interactivo</mark></h1>
+        <div id="spain-map" class="centro">
+            <a href="madrid.html" class="ciudad" id="madrid" target="_blank"></a>
+            <a href="barcelona.html" class="ciudad" id="barcelona" target="_blank"></a>
+            <a href="galicia.html" class="ciudad" id="galicia" target="_blank"></a>
+        </div>
+        <p><small>Mapa: <a href="https://commons.wikimedia.org/wiki/File:Spain_location_map.svg">Spain location map</a>, de NordNordWest (Wikimedia Commons), <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.es">CC BY-SA 3.0</a>.</small></p>
+    </body>
+</html>

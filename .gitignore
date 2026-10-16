@@ -1,0 +1,42 @@
+# Repositorio de documentación y código de prácticas.
+# Red de seguridad para no subir nunca documentos originales, capturas,
+# exportaciones ni secretos (pueden contener datos personales o metadatos).
+*.docx
+*.doc
+*.pptx
+*.xlsx
+*.odt
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.webp
+*.pka
+*.pkt
+*.pcap
+*.pcapng
+*.env
+.env*
+*.key
+*.pem
+*.zip
+*.7z
+*.tar
+*.tar.gz
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Segundo curso: Python / Django / PHP
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.sqlite3-query
+my_venv/
+myworld/
+venv/
+.venv/
+*.exe
+pyvenv.cfg
